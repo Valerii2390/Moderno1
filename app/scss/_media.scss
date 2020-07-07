@@ -1,0 +1,620 @@
+                                   @media (max-width: 1900px) {
+                                       .product__slider-inner {
+                                           text-align: center;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1440px) {
+                                       .product__slider-inner {
+                                           text-align: center;
+                                           .product__item {
+                                               max-width: 560px;
+                                           }
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1350px) {
+                                       .footer__inner {
+                                           flex-wrap: wrap;
+                                       }
+                                       .footer__col-address {
+                                           margin-bottom: 30px;
+                                           min-width: 100%;
+                                       }
+                                       .header__text {
+                                           display: none;
+                                       }
+                                       .search__inner button::after {
+                                           right: 5px;
+                                       }
+                                       .withdrawals__inner {
+                                           display: block;
+                                       }
+                                       .withdrawals__col {
+                                           min-width: 100%;
+                                           margin-bottom: 20px;
+                                       }
+                                       .withdrawal__content_item {
+                                           max-width: 490px;
+                                       }
+                                       .products {
+                                           .product__item {
+                                               flex-basis: calc(33.3333% - 20px);
+                                               margin-left: 20px;
+                                           }
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1225px) {
+                                       .product__slider-inner {
+                                           text-align: center;
+                                           .product__item {
+                                               max-width: 325px;
+                                           }
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1160px) {
+                                       .product-page__content {
+                                           .product__item {
+                                               flex-basis: calc(50% - 30px);
+                                               max-width: 100%;
+                                           }
+                                       }
+                                       .product__item-img {
+                                           min-height: 225px;
+                                       }
+                                       .page-404__404::after {
+                                           content: "";
+                                           position: absolute;
+                                           background-image: url(../images/page-404/page-404.png);
+                                           width: 50px;
+                                           height: 100px;
+                                           background-repeat: no-repeat;
+                                           background-size: cover;
+                                       }
+                                       .contact__form-row {
+                                           display: block;
+                                           overflow: hidden;
+                                       }
+                                       .contact__form-row {
+                                           input {
+                                               width: 100%;
+                                           }
+                                       }
+                                       .product-page__inner {
+                                           display: block;
+                                           .aside__item {
+                                               min-width: 100%;
+                                               margin-bottom: 30px;
+                                           }
+                                       }
+                                       .product-page__aside {
+                                           margin-right: 0;
+                                       }
+                                       .top-sellers {
+                                           display: none;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1100px) {
+                                       .tutorial__inner {
+                                           flex-wrap: wrap;
+                                       }
+                                       .tutorial__item {
+                                           display: block;
+                                           min-width: 100%;
+                                       }
+                                       .advantages__inner {
+                                           display: block;
+                                       }
+                                       .advantages__item {
+                                           margin-bottom: 30px;
+                                           max-width: 100%;
+                                       }
+                                       @media (max-width: 1225px) {
+                                           .product__slider-inner {
+                                               text-align: center;
+                                               .product__item {
+                                                   min-width: 100%;
+                                               }
+                                           }
+                                       }
+                                       .search__inner-title {
+                                           font-size: 35px;
+                                           line-height: 30px;
+                                       }
+                                       .top-sellers {
+                                           display: none;
+                                       }
+                                       .search__inner button::after {
+                                           left: 150px;
+                                       }
+                                       .product-one__inner {
+                                           display: block;
+                                       }
+                                       .product-one__content {
+                                           min-width: 100%;
+                                       }
+                                       .footer__col-social {
+                                           margin-top: 30px;
+                                           min-width: 100%;
+                                       }
+                                       .product-one__tabs.settings__tabs {
+                                           display: block;
+                                       }
+                                       .product-one__tabs.settings__tabs .tabs {
+                                           margin-bottom: 20px;
+                                           max-width: 100%;
+                                       }
+                                       .footer__inner {
+                                           justify-content: flex-start;
+                                       }
+                                       .footer__col-menu {
+                                           &+& {
+                                               margin-left: 40px;
+                                           }
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 1040px) {
+                                       .author {
+                                           min-height: 450px;
+                                       }
+                                       .product-one__title {
+                                           font-size: 20px;
+                                           line-height: 30px;
+                                           margin: 10px 0px 10px;
+                                       }
+                                       .product-one__text {
+                                           font-size: 12px;
+                                           line-height: 12px;
+                                           margin-bottom: 20px;
+                                           /* margin-top: 20px; */
+                                       }
+                                       .link-live {
+                                           display: block;
+                                           margin-bottom: 10px;
+                                       }
+                                       .link-screenshot {
+                                           display: block;
+                                           margin-bottom: 10px;
+                                       }
+                                       .link-documentation {
+                                           display: block;
+                                           margin-bottom: 10px;
+                                       }
+                                       .product-one__box {
+                                           display: block;
+                                           margin-bottom: 25px;
+                                       }
+                                       .product-one__link a+a {
+                                           margin-left: 0px;
+                                       }
+                                       .product-one__social {
+                                           margin-right: auto;
+                                           ;
+                                       }
+                                       .search__inner button::after {
+                                           left: 150px;
+                                       }
+                                       .upload-line {
+                                           display: block;
+                                           label {
+                                               display: inline-block;
+                                               margin-bottom: 5px;
+                                           }
+                                       }
+                                       .upload__inner {
+                                           button {
+                                               margin-left: 0;
+                                           }
+                                       }
+                                       .upload__inner-title {
+                                           padding: 16px 10px 18px;
+                                       }
+                                       .upload__inner-content {
+                                           padding-left: 15px;
+                                           padding-right: 15px;
+                                       }
+                                       .menu__list {
+                                           display: none;
+                                           background-color: $bg;
+                                           position: absolute;
+                                           top: 150px;
+                                           left: 0;
+                                           right: 0;
+                                           z-index: 1;
+                                           padding-bottom: 30px;
+                                           a {
+                                               display: block;
+                                               text-align: center;
+                                               padding: 10px 0px;
+                                               border-bottom: 1px solid #fff;
+                                           }
+                                           li {
+                                               display: block;
+                                               &+li {
+                                                   margin-left: 0;
+                                               }
+                                               &:first-child {
+                                                   border-top: 1px solid #fff;
+                                               }
+                                           }
+                                       }
+                                       .menu__btn {
+                                           display: block;
+                                           width: 30px;
+                                           cursor: pointer;
+                                           div {
+                                               background-color: #fff;
+                                               height: 3px;
+                                               &+div {
+                                                   margin-top: 5px;
+                                               }
+                                           }
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 940px) {
+                                       .author__box {
+                                           display: block;
+                                           padding: 50px 15px;
+                                           text-align: center;
+                                       }
+                                       .author__title {
+                                           margin-bottom: 20px;
+                                       }
+                                       .products {
+                                           .product__item {
+                                               flex-basis: calc(50% - 20px);
+                                               margin-left: 20px;
+                                               margin-bottom: 20px;
+                                           }
+                                       }
+                                       .product-page__items {
+                                           margin-left: -20px;
+                                       }
+                                       .search__inner button::after {
+                                           left: 100px;
+                                       }
+                                       .page-404__404 {
+                                           font-family: 'Open Sans', sans-serif;
+                                           font-weight: 800;
+                                           font-size: 200px;
+                                           color: #fff;
+                                           padding-bottom: 20px;
+                                           padding-top: 50px;
+                                           line-height: 200px;
+                                           position: relative;
+                                       }
+                                       .profile__inner {
+                                           flex-direction: column;
+                                       }
+                                       .profile__aside {
+                                           order: 1;
+                                           margin-top: 20px;
+                                           min-width: 100%;
+                                       }
+                                       .aside-item {
+                                           width: 100%;
+                                           display: flex;
+                                           justify-content: space-between;
+                                           align-items: center;
+                                           max-width: none;
+                                       }
+                                       .profile__aside-btn {
+                                           width: 250px;
+                                       }
+                                       .page-404__title {
+                                           margin-bottom: 20px;
+                                           font-size: 20px;
+                                       }
+                                       .page-404__text {
+                                           font-size: 15px;
+                                           max-width: 501px;
+                                           margin: 0 auto;
+                                           margin-bottom: 40px;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 840px) {
+                                       .login-wrapper {
+                                           .create-acc {
+                                               width: 100%;
+                                           }
+                                       }
+                                       .login-wrapper button {
+                                           width: 100%;
+                                       }
+                                       .title {
+                                           font-size: 24px;
+                                       }
+                                       .icon-th-list {
+                                           display: none;
+                                       }
+                                       .product__item.list {
+                                           flex-basis: 100%;
+                                       }
+                                       .breadcrumbs__inner {
+                                           span {
+                                               display: none;
+                                           }
+                                       }
+                                       .tabs .tab {
+                                           display: block;
+                                       }
+                                       .tabs {
+                                           display: block;
+                                       }
+                                       .tab {
+                                           border-bottom: 1px solid #dedede;
+                                       }
+                                       .tab-items__list {
+                                           column-count: 1;
+                                           column-gap: 0px;
+                                       }
+                                       .tab__content {
+                                           padding: 10px;
+                                       }
+                                       .link-live {
+                                           min-width: 100%;
+                                       }
+                                       .productmini {
+                                           max-width: none;
+                                       }
+                                       .link-screenshot {
+                                           min-width: 100%;
+                                       }
+                                       .link-documentation {
+                                           min-width: 100%;
+                                       }
+                                       .contact__box {
+                                           display: block;
+                                       }
+                                       .product-one__images {
+                                           height: 300px;
+                                       }
+                                       .search__inner button::after {
+                                           left: 229px;
+                                       }
+                                       .message__box {
+                                           display: none;
+                                       }
+                                       .circle__menu {
+                                           right: -198px;
+                                       }
+                                       .notification__box {
+                                           display: none;
+                                       }
+                                       .page-404__inner {
+                                           padding: 0px 15px;
+                                       }
+                                       .settings__line {
+                                           display: block;
+                                           label {
+                                               display: inline-block;
+                                               margin-bottom: 5px;
+                                           }
+                                       }
+                                       .product-one__link {
+                                           min-width: 100%;
+                                       }
+                                       .page-box__content {
+                                           padding: 20px 10px 50px;
+                                       }
+                                       .page-box__title {
+                                           padding: 18px 10px;
+                                       }
+                                       .profile__banner-images {
+                                           min-height: 225px;
+                                           height: auto;
+                                       }
+                                       .profile__items {
+                                           display: block;
+                                           .profile__item {
+                                               width: 100%;
+                                           }
+                                       }
+                                       .profile__item+.profile__item {
+                                           border-left: none;
+                                           border-top: 1px solid #dedede;
+                                       }
+                                       .aside-item {
+                                           display: block;
+                                       }
+                                       .personal-box {
+                                           padding: 25px 20px 15px;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 740px) {
+                                       .search__inner button::after {
+                                           left: 229px;
+                                       }
+                                       .page-404__link {
+                                           padding: 10px 30px 6px;
+                                       }
+                                       .footer__col {
+                                           min-width: 100%;
+                                       }
+                                       .footer__col-menu+.footer__col-menu {
+                                           margin-left: 0;
+                                           margin-top: 30px;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 720px) {
+                                       .products {
+                                           .product__item {
+                                               flex-basis: 100%;
+                                               max-width: 100%;
+                                           }
+                                       }
+                                       .search__inner-title {
+                                           font-size: 24px;
+                                       }
+                                       .search__inner-text {
+                                           font-size: 14px;
+                                       }
+                                       .product-page__content {
+                                           .product__item {
+                                               flex-basis: 100%;
+                                               // max-width: 100%;
+                                           }
+                                       }
+                                       .contact__inner {
+                                           padding: 35px 10px 15px;
+                                       }
+                                       .search__inner button::after {
+                                           left: 229px;
+                                       }
+                                       .contact__head {
+                                           padding-left: 10px;
+                                           padding-right: 10px;
+                                       }
+                                       .contact__form-row {
+                                           input {
+                                               width: 100%;
+                                           }
+                                       }
+                                       .header {
+                                           position: relative;
+                                       }
+                                       .menu__list {
+                                           top: 70px;
+                                       }
+                                       .withdrawals__content {
+                                           padding-left: 10px;
+                                           padding-right: 10px;
+                                       }
+                                       .withdrawal__content_items {
+                                           overflow-x: scroll;
+                                       }
+                                       .withdrawal__content_item {
+                                           min-width: 490px;
+                                       }
+                                       .user__box:hover .user__menu {
+                                           top: 51px;
+                                           left: 41px;
+                                       }
+                                       .header__btn-menu {
+                                           display: block;
+                                           width: 70px;
+                                           height: 70px;
+                                           background-color: $bg;
+                                           position: absolute;
+                                           right: 0;
+                                           top: 0;
+                                           z-index: 4;
+                                           &::before {
+                                               position: absolute;
+                                               top: 50%;
+                                               left: 50%;
+                                               transform: translate(-50%, -50%);
+                                               font-size: 36px;
+                                               color: #fff;
+                                           }
+                                       }
+                                       .about__head {
+                                           padding: 23px 10px;
+                                       }
+                                       .about__inner {
+                                           padding: 0px 10px;
+                                       }
+                                       .header__box {
+                                           position: absolute;
+                                           transition: all 1s;
+                                           // transform: translateX(100%);
+                                           background-color: #fff;
+                                           height: 60px;
+                                           left: 100%;
+                                           right: -100%;
+                                           z-index: 2;
+                                           &.active {
+                                               // transform: translateX(0);
+                                               left: 70px;
+                                           }
+                                       }
+                                       .header__logo {
+                                           margin-left: 60px;
+                                       }
+                                       .menu__btn {
+                                           position: absolute;
+                                           top: 24px;
+                                           div {
+                                               background-color: $bg;
+                                           }
+                                       }
+                                       .header__top-inner {
+                                           height: 70px;
+                                       }
+                                       .circle__menu {
+                                           top: 47px;
+                                       }
+                                   }
+                                   
+                                   @media (max-width: 595px) {
+                                       .title {
+                                           font-size: 16px;
+                                       }
+                                       .products__inner-btn button {
+                                           margin-bottom: 20px;
+                                           padding: 8px 10px;
+                                           font-size: 12px;
+                                       }
+                                       .user {
+                                           display: none;
+                                       }
+                                       .user__info {
+                                           display: none;
+                                       }
+                                       .basket {
+                                           margin-right: 20px;
+                                       }
+                                       .user__images {
+                                           margin-right: 0;
+                                       }
+                                       .user__box:hover .user__menu {
+                                           right: 0;
+                                       }
+                                       .header__btn .header__btn-logout .header__btn-login--on {
+                                           margin-right: 20px;
+                                       }
+                                       .contact__map iframe {
+                                           width: 100%;
+                                           height: 300px;
+                                       }
+                                       .search__inner button::after {
+                                           left: 229px;
+                                       }
+                                       @media (max-width: 520px) {
+                                           .page-404__inner {
+                                               padding: 0px 15px;
+                                           }
+                                           .product-one__images {
+                                               height: 200px;
+                                           }
+                                           .page-404__404 {
+                                               font-size: 100px;
+                                           }
+                                           .page-404__404::after {
+                                               content: "";
+                                               position: absolute;
+                                               background-image: url(../images/page-404/page-404.png);
+                                               width: 35px;
+                                               height: 70px;
+                                               right: 49px;
+                                               background-repeat: no-repeat;
+                                               background-size: cover;
+                                           }
+                                           .search__inner button::after {
+                                               right: -237px;
+                                           }
+                                       }
+                                       @media (min-width: 1041px) {
+                                           .menu__list {
+                                               display: block !important;
+                                           }
+                                       }
+                                   }
